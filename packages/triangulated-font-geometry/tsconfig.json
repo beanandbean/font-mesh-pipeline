@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "lib": ["es2019"],
+    "outDir": "./lib",
+    "typeRoots": ["./types"]
+  },
+  "include": ["./src"]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "triangulated-font-geometry",
+  "description": "Generate and cache triangulated text meshes",
+  "version": "0.0.1",
+  "author": "beanandbean",
+  "license": "MIT",
+  "homepage": "https://github.com/beanandbean/font-mesh-pipeline/tree/main/packages/triangulated-font-geometry",
+  "repository": "github:beanandbean/font-mesh-pipeline",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "adaptive-bezier-curve": "^1.0.3",
+    "adaptive-quadratic-curve": "^1.0.2",
+    "harfbuzz-modern-wrapper": "^0.0.1",
+    "polygon-winding-solver": "^0.0.3"
+  }
+}

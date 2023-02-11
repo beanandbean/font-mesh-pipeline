@@ -1,0 +1,7 @@
+{
+  "name": "font-mesh-pipeline",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ]
+}

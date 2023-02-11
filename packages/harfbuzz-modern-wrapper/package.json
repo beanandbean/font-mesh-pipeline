@@ -1,0 +1,25 @@
+{
+  "name": "harfbuzz-modern-wrapper",
+  "description": "TypeScript wrapper for Harfbuzz font engine with bidirectional Unicode support",
+  "version": "0.0.1",
+  "author": "beanandbean",
+  "license": "MIT",
+  "homepage": "https://github.com/beanandbean/font-mesh-pipeline/tree/main/packages/harfbuzz-modern-wrapper",
+  "repository": "github:beanandbean/font-mesh-pipeline",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "bidi-js": "^1.0.2",
+    "harfbuzzjs": "^0.3.1"
+  }
+}
